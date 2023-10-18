@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pagCadastro.css">
+</head>
+<body>
+    
+    <section class="geral">
+
+        <div class="fundo">
+
+            
+
+            <div class="caixa">
+                <div class="divImgLogo">
+                    <img src="../logo-improviso.png" class="imgLogo" alt="" srcset="">
+                </div>
+
+                <div class="inputs">
+
+                    <div class="divNome divInput">
+                        <label for="Nome">Seu Nome:</label>
+
+                        <div class="input inputEmail">
+                            <input type="email" placeholder="Digite seu nome Completo" id="INome"/>
+                        </div>
+
+                    </div>
+
+                    <div class="divEmail divInput">
+                        <label for="email">E-mail</label>
+                        <div class="input inputEmail">
+                            
+                            <input type="email" placeholder="Digite seu e-mail" id="Iemail"/>
+                        </div>
+                    </div>
+                    
+                    <div class="divSenha divInput">
+                        <label for="password">Senha</label>
+                        <div class="input inputSenha">
+                            
+                            <input type="password" placeholder="Digite sua senha" id="Isenha"/>
+                            <img class="imgSenha" id="imgSenha" src="https://cdn-icons-png.flaticon.com/512/2767/2767146.png" onclick="senhaVisibilidade()" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="divTipoConta divInput">
+                        <label for="">Tipo de Conta</label>
+                        <select name="" id="escolhaConta" onchange="mostrarInputsTipoConta()">
+                            <option value="Cliente" selected>Cliente</option>
+                            <option value="Vendedor">Vendedor</option>
+                        </select>
+                    </div>
+
+                    <div class="divNomeLoja divInput divEspecial" id="divNomeLoja">
+                        <label for="">Nome da Loja</label>
+                        <div class="input inputNomeLoja">
+                            
+                            <input type="text" placeholder="Nome que os clientes visualizarão" id="InomeLoja"/>
+                        </div>
+                    </div>
+
+                    <div class="divContato divInput divEspecial" id="divContato">
+                        <label for="">Número de Contato</label>
+                        <div class="input inputContato">
+                            
+                            <input type="number" placeholder="Número para contato" id="Icontato"/>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="btnsAcesso">
+                    <button class="btn btnVoltar" onclick="telaDeLogin()">Voltar</button>
+                    <button class="btn btnCadastrar" id="btnCadastrar" onclick="telaDePerfilUsuario()">Cadastrar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    
+
+    <script src="pagCadastro.js"></script>
+</body>
+</html>

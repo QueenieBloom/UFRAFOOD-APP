@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="geral">
+
+        <div class="fundo">
+
+            
+
+            <div class="caixa">
+                <div class="divImgLogo">
+                    <img src="logo-improviso.png" class="imgLogo" alt="" srcset="">
+                </div>
+
+                <div class="inputs">
+                    <div class="divEmail">
+                        <label for="email">E-mail</label>
+                        <div class="input inputEmail">
+                            
+                            <input type="email" placeholder="Digite seu e-mail" id="Iemail"/>
+                        </div>
+                    </div>
+                    
+                    <div class="divSenha">
+                        <label for="password">Senha</label>
+                        <div class="input inputSenha">
+                            
+                            <input type="password" placeholder="Digite sua senha" id="Isenha"/>
+                            <img class="imgSenha" id="imgSenha" src="https://cdn-icons-png.flaticon.com/512/2767/2767146.png" onclick="senhaVisibilidade()" alt="" srcset="">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="btnsAcesso">
+                    <button class="btn btnCadastrar" onclick="telaDeCadastro()">Cadastrar</button>
+                    <button class="btn btnAcessar" id="btnAcessar" onclick="pegarInputs()">Acessar</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
