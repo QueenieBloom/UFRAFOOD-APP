@@ -62,5 +62,7 @@ Como o projeto surgiu durante as disciplinas de Engenharia de Software I e II e 
   - Larissa > <https://github.com/QueenieBloom>
 
 ## Tecnologias
-
+- **Framework:** Flutter
+- **Linguagem de Programação:** Dart
+- **Editor:** Visual Studio Code, Android Studio.
 
